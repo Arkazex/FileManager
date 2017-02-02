@@ -1,0 +1,52 @@
+.tree .base {
+	xborder-bottom: 1px solid black;
+	margin-left: 16px;
+	max-height: 23px;
+	overflow: hidden;
+}
+.tree>.base{
+	margin-left: 0px;
+}
+.tree img {
+	xborder: 1px solid black;
+	xheight: 18px;
+	xwidth: 18px;
+}
+.tree .flabel {
+	color: black;
+	line-height: 22px;
+	padding-left: 4px;
+}
+
+/* Tree Node */
+.tree .node {
+	margin-left: 19px;
+	overflow: hidden;
+	max-height: 25px;
+	cursor: pointer;
+	color: black;
+}
+
+/* Tree Highlight Box */
+.hbox {
+	padding-left: 2px;
+	border-radius: 3px;
+	border: 1px solid transparent;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	height: 25px;
+}
+.hbox:hover {
+	background-color: #ebeeff;
+	background: linear-gradient(to bottom, #feffff 1%,#eeffff 100%);
+	border: 1px solid #caecff; 
+}
+.hbox.selected {
+	background: linear-gradient(to bottom, #eff7ff 1%,#ccefff 100%);
+	border: 1px solid #aaccff;
+}
+.hbox img {
+	margin-right: 3px;	/* Side spacing to reduce icon clutter */
+	margin-bottom: 3px;	/* Bottom spacing to center icons on line */
+}

@@ -1,0 +1,85 @@
+/* File Tree */
+.tree .base {
+	xborder-bottom: 1px solid black;
+	margin-left: 16px;
+	max-height: 23px;
+	overflow: hidden;
+	padding: 4px;
+}
+/* Special style for first tree element */
+.tree>.base{
+	margin-left: 0px;
+}
+/* Tree Icon */
+.tree img {
+	xborder: 1px solid black;
+	xheight: 18px;
+	xwidth: 18px;
+}
+/* Tree File Label */
+.tree .flabel {
+	color: black;
+	line-height: 22px;
+	padding-left: 4px;
+}
+/* Tree Node */
+.tree .node {
+	margin-left: 19px;
+	overflow: hidden;
+	max-height: 25px;
+	cursor: pointer;
+	color: black;
+}
+
+/* Highlight Box */
+.hbox {
+	padding-left: 2px;
+	border-radius: 3px;
+	border: 1px solid transparent;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	height: 25px;
+}
+/* Style for hover */
+.hbox:hover {
+	background-color: #ebeeff;
+	background: linear-gradient(to bottom, #feffff 1%,#eeffff 100%);
+	border: 1px solid #caecff; 
+}
+/* Selected Box */
+.hbox.selected {
+	background: linear-gradient(to bottom, #eff7ff 1%,#ccefff 100%);
+	border: 1px solid #aaccff;
+}
+/* Disabled Box */
+.hbox.disabled {
+	color: #555555;
+}
+/* Disabled Box Hover */
+.hbox.disabled:hover {
+	background: linear-gradient(to bottom, #fefefe 1%,#efefef 100%);
+	border: 1px solid #ececec;
+}
+/* Disbled icon */
+.hbox.disabled img {
+	filter: grayscale(100%);
+}
+/* Icons */
+.hbox img {
+	margin-right: 3px;	/* Side spacing to reduce icon clutter */
+	margin-bottom: 3px;	/* Bottom spacing to center icons on line */
+}
+
+/* Context Menu Style */
+.cmenu {
+	color: black;
+}
+/* Separator */
+.cmenu .separator {
+	border-top: 1px solid #dddddd;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
+}

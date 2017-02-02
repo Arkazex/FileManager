@@ -1,0 +1,64 @@
+/* File Manager File Table */
+
+.fpanel {
+	xwidth: 75vw;
+	position: relative;
+}
+
+.fscroll {
+	padding: 4px;
+	xwidth: 75vw;
+	height: calc(80vh - 64px);
+	overflow-y: scroll;
+	padding-top: 30px;
+}
+
+.fpanel .header {
+	float: top;
+	position: absolute;
+	padding: 4px;
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 80%,rgba(255,255,255,0) 100%);
+	margin-left: 4px;
+}
+
+/* Column Box Definitions */
+.fpanel .name {
+	color: black;
+	width: 200px;
+	display: inline-block;
+	padding-left: 4px;
+}
+.fpanel .date {
+	width: 150px;
+	display: inline-block;
+	padding-left: 4px;
+}
+.fpanel .type {
+	width: 125px;
+	display: inline-block;
+	padding-left: 4px;
+}
+.fpanel .size {
+	width: 70px;
+	display: inline-block;
+	padding-left: 4px;
+}
+
+.fpanel .ferr {
+	margin-top: 50px;
+	font-style: italic;
+	text-align: center;
+}
+
+.fpanel .item {
+	
+}
+.fpanel .item:hover {
+	background-color: blue;
+}
+
+/* File Information Panel */
+.fipanel {
+	height: 20vh;
+	border-top: 1px solid black;
+}
